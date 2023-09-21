@@ -123,7 +123,7 @@ def start():
 
 @app.route('/add', methods=['GET', 'POST'])
 def add():
-    path_dataset = "C:\\Users\\doian\\Desktop\\data mining\\FaceDetectionSystem\\dataset\\"
+    path_dataset = "dataset\\"
 
     newusername = request.form['newusername']
     newuserid = request.form['newuserid']
